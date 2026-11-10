@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "boochi.note-note-toggle",
+  "name": "Note Note Toggle",
+  "version": "1.0.0",
+  "author": "boochi",
+  "license": "MIT",
+  "description": "A simple notepad bar widget for the Omarchy bar. When clicked, it toggles andreivinca's Note Note plugin.",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "Note Note",
+    "category": "Productivity",
+    "allowMultiple": false,
+    "defaultSection": "right"
+  }
+}
